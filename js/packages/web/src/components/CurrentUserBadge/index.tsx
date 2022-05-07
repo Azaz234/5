@@ -300,7 +300,7 @@ export const CurrentUserBadge = (props: {
                     onClick={() => setShowAddFundsModal(true)}
                     style={btnStyle}
                   >
-                    Add Funds
+                    
                   </Button>
                   &nbsp;&nbsp;
                   <Button

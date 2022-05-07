@@ -43,10 +43,11 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
     <>
       {!props.collectionMintFilter && (
         <Banner
-          src="/main-banner.svg"
-          headingText="The amazing world of Metaplex."
-          subHeadingText="Buy exclusive Metaplex NFTs."
-          actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
+          src="/main-banner.jpg"
+          headingText="House of Genetic  &nbsp;&nbsp;&nbsp;                 
+             Diversity 5 w/ Mark Pritchard."
+          subHeadingText=""
+          // actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
           useBannerBg
         />
       )}
@@ -73,12 +74,12 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
                   ></TabPane>
                 )}
                 <TabPane tab="Ended" key={LiveAuctionViewState.Ended}></TabPane>
-                {connected && (
+                {/* {connected && (
                   <TabPane
                     tab="Participated"
                     key={LiveAuctionViewState.Participated}
                   ></TabPane>
-                )}
+                )} */}
                 {connected && (
                   <TabPane
                     tab="My Live Auctions"

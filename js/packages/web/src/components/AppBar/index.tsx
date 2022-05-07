@@ -16,14 +16,14 @@ import { MobileNavbar } from '../MobileNavbar';
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
-    <Link to={`/`} key={'explore'}>
-      <Button className="app-btn">Explore</Button>
+    <Link to={`/`} key={'Home'}>
+      <Button className="app-btn">Home</Button>
     </Link>,
-    <Link to={`/collections`} key={'collections'}>
-      <Button className="app-btn">Collections</Button>
-    </Link>,
+    // <Link to={`/`} key={'collections'}>
+    //   <Button className="app-btn">Collections</Button>
+    // </Link>,
     <Link to={`/artworks`} key={'artwork'}>
-      <Button className="app-btn">{connected ? 'My Items' : 'Artwork'}</Button>
+      <Button className="app-btn">{connected ? 'Artworks' : 'Artwork'}</Button>
     </Link>,
     <Link to={`/artists`} key={'artists'}>
       <Button className="app-btn">Creators</Button>
@@ -54,7 +54,7 @@ export const MetaplexMenu = () => {
     return (
       <>
         <Modal
-          title={<img src={'/metaplex-logo.svg'} />}
+          title={<img src={'/metaplex-logo.png'} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -113,7 +113,7 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/metaplex-logo.svg'} />
+      <img src={'/metaplex-logo.png'} />
     </Link>
   );
 };

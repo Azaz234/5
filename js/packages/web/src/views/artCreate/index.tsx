@@ -249,7 +249,7 @@ const CategoryStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>Create a new item</h2>
-        <p>
+        {/* <p>
           First time creating on Metaplex?{' '}
           <a
             href="https://docs.metaplex.com/storefront/create"
@@ -258,7 +258,7 @@ const CategoryStep = (props: {
           >
             Read our creators’ guide.
           </a>
-        </p>
+        </p> */}
       </Row>
       <Row justify={width < 768 ? 'center' : 'start'}>
         <Col>
@@ -399,16 +399,16 @@ const UploadStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>Now, let&apos;s upload your creation</h2>
-        <p style={{ fontSize: '1.2rem' }}>
+        {/* <p style={{ fontSize: '1.2rem' }}>
           Your file will be uploaded to the decentralized web via Arweave.
           Depending on file type, can take up to 1 minute. Arweave is a new type
           of storage that backs data with sustainable and perpetual endowments,
           allowing users and developers to truly store data forever – for the
           very first time.
-        </p>
+        </p> */}
       </Row>
       <Row className="content-action">
-        <h3>Upload a cover image (PNG, JPG, GIF, SVG)</h3>
+        {/* <h3>Upload a cover image (PNG, JPG, GIF, SVG)</h3> */}
         <Dragger
           accept=".png,.jpg,.gif,.mp4,.svg"
           style={{ padding: 20, background: 'rgba(255, 255, 255, 0.08)' }}
@@ -667,10 +667,10 @@ const InfoStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>Describe your item</h2>
-        <p>
+        {/* <p>
           Provide detailed description of your creative process to engage with
           your audience.
-        </p>
+        </p> */}
       </Row>
       <Row className="content-action" justify="space-around">
         <Col>
@@ -978,10 +978,10 @@ const RoyaltiesStep = (props: {
     <>
       <Row className="call-to-action" style={{ marginBottom: 20 }}>
         <h2>Set royalties and creator splits</h2>
-        <p>
+        {/* <p>
           Royalties ensure that you continue to get compensated for your work
           after its initial sale.
-        </p>
+        </p> */}
       </Row>
       <Row className="content-action" style={{ marginBottom: 20 }}>
         <label className="action-field">
@@ -1162,10 +1162,10 @@ const LaunchStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>Launch your creation</h2>
-        <p>
+        {/* <p>
           Provide detailed description of your creative process to engage with
           your audience.
-        </p>
+        </p> */}
       </Row>
       <Row className="content-action" justify="space-around">
         <Col>
@@ -1202,7 +1202,7 @@ const LaunchStep = (props: {
             <Spin />
           )}
         </Col>
-      </Row>
+      </Row><br></br>
       <Row>
         <Button
           type="primary"
@@ -1212,14 +1212,14 @@ const LaunchStep = (props: {
         >
           Pay with SOL
         </Button>
-        <Button
+        {/* <Button
           disabled={true}
           size="large"
           onClick={props.confirm}
           className="action-btn"
         >
           Pay with Credit Card
-        </Button>
+        </Button> */}
       </Row>
     </>
   );
@@ -1358,8 +1358,8 @@ const Congrats = (props: {
         >
           <span>Share it on Twitter</span>
           <span>&gt;</span>
-        </Button>
-        <Button
+        </Button><br></br>
+        {/* <Button
           className="metaplex-button"
           onClick={() =>
             history.push(`/art/${props.nft?.metadataAccount.toString()}`)
@@ -1367,7 +1367,7 @@ const Congrats = (props: {
         >
           <span>See it in your collection</span>
           <span>&gt;</span>
-        </Button>
+        </Button> */}
         <Button
           className="metaplex-button"
           onClick={() => history.push('/auction/create')}

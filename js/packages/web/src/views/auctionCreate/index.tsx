@@ -707,9 +707,9 @@ const CategoryStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>List an item</h2>
-        <p>
+        {/* <p>
           First time listing on Metaplex? <a>Read our sellers&apos; guide.</a>
-        </p>
+        </p> */}
       </Row>
       <Row justify={width < 768 ? 'center' : 'start'}>
         <Col>
@@ -1003,9 +1003,9 @@ const CopiesStep = (props: {
     <>
       <Row className="call-to-action" style={{ marginBottom: 0 }}>
         <h2>Select which item to sell</h2>
-        <p style={{ fontSize: '1.2rem' }}>
+        {/* <p style={{ fontSize: '1.2rem' }}>
           Select the item(s) that you want to list.
-        </p>
+        </p> */}
       </Row>
       <Row className="content-action">
         <Col xl={24}>
@@ -1984,7 +1984,7 @@ const ReviewStep = (props: {
     <>
       <Row className="call-to-action">
         <h2>Review and list</h2>
-        <p>Review your listing before publishing.</p>
+        {/* <p>Review your listing before publishing.</p> */}
       </Row>
       <Row className="content-action">
         <Col xl={12}>
@@ -2160,7 +2160,7 @@ const Congrats = (props: {
           >
             <span>Share it on Twitter</span>
             <span>&gt;</span>
-          </Button>
+          </Button><br></br>
           <Button
             className="metaplex-button"
             onClick={() => {
