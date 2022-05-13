@@ -28,7 +28,7 @@ export const AppLayout = React.memo(function AppLayoutImpl(props: any) {
             {props.children}
           </Content>
         </Layout>
-        {/*<Footer />*/}
+        <Footer />
       </Layout>
     </>
   );

@@ -93,10 +93,8 @@ export const Footer = () => {
       <div className="footer-info">
         {footerConf.showShopName ? (
           <div className="footer-community">
-            <div className="sub-header">
-              {LABELS.STORE_NAME} NFT Marketplace
-            </div>
-            <div className="footer-link">Powered by Metaplex and Solana</div>
+            <div className="sub-header">NFT FaceEffects</div>
+            <div className="footer-link">Powered by FaceEffects and Solana</div>
           </div>
         ) : null}
         {footerConf.components.map((component, ii) => (
