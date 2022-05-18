@@ -1,7 +1,7 @@
 export const footerConf = {
     showShopName: true,
     showEmailSubscriber: true,
-    emailSubscriberText: 'Join our mailing list for updates about our artists and more.',
+    // emailSubscriberText: 'Join our mailing list for updates about our artists and more.',
     components: [{
             title: 'COMMUNITY',
             links: [{
@@ -13,46 +13,6 @@ export const footerConf = {
                     url: 'www.solana.com',
                 },
                 {
-                    label: 'Discord',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Discord',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Discord',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Discord',
-                    url: 'www.solana.com',
-                },
-            ],
-        },
-        {
-            title: 'FOR ARTISTS',
-            links: [{
-                    label: 'FAQ',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Support',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Privacy policy',
-                    url: 'www.solana.com',
-                },
-                {
-                    label: 'Your purchases',
-                    url: 'www.solana.com',
-                },
-            ],
-        },
-        {
-            title: 'LEGAL',
-            links: [{
                     label: 'Instagram',
                     url: 'www.solana.com',
                 },
@@ -61,7 +21,40 @@ export const footerConf = {
                     url: 'www.solana.com',
                 },
                 {
-                    label: 'Discord',
+                    label: 'Blog',
+                    url: 'www.solana.com',
+                },
+                {
+                    label: 'Help Center',
+                    url: 'www.solana.com',
+                },
+            ],
+        },
+        {
+            title: 'FOR ARTISTS',
+            links: [{
+                    label: 'Submit Artist Profile',
+                    url: 'www.solana.com',
+                },
+                
+            ],
+        },
+        {
+            title: 'LEGAL',
+            links: [{
+                    label: 'Community Guidlines',
+                    url: 'www.solana.com',
+                },
+                {
+                    label: 'Terms of service',
+                    url: 'www.solana.com',
+                },
+                {
+                    label: 'Privacy Policy',
+                    url: 'www.solana.com',
+                },
+                {
+                    label: 'Report Content',
                     url: 'www.solana.com',
                 },
             ],

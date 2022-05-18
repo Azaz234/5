@@ -42,16 +42,16 @@ export const Footer = () => {
             ]}
             style={{ display: 'flex !important' }}
           >
-            <Input
+            {/* <Input
               className={'footer-input'}
               type="text"
               id="input"
               placeholder="Email Address"
               bordered={false}
-            />
-            <Button className={'footer-button'} htmlType="submit">
+            /> */}
+            {/* <Button className={'footer-button'} htmlType="submit">
               <SendOutlined />
-            </Button>
+            </Button> */}
           </Form.Item>
         </Form>
         {props.status ? (
@@ -93,8 +93,8 @@ export const Footer = () => {
       <div className="footer-info">
         {footerConf.showShopName ? (
           <div className="footer-community">
-            <div className="sub-header">NFT FaceEffects</div>
-            <div className="footer-link">Powered by FaceEffects and Solana</div>
+            <div className="sub-header">FaceEffects Gallery</div>
+            <div className="footer-link">© 2022 Face Effects</div>
           </div>
         ) : null}
         {footerConf.components.map((component, ii) => (
@@ -125,7 +125,7 @@ export const Footer = () => {
       </div>
       <div className="footer-foot">
         <div className="small-body footer-link">
-          2021 {LABELS.STORE_NAME} LLC, All rights reserved
+          2022 LLC, All rights reserved
         </div>
       </div>
     </div>
