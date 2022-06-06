@@ -67,12 +67,12 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
                   }
                   key={LiveAuctionViewState.All}
                 ></TabPane>
-                {hasResaleAuctions && (
+                {/* {hasResaleAuctions && (
                   <TabPane
                     tab="Secondary Marketplace"
                     key={LiveAuctionViewState.Resale}
                   ></TabPane>
-                )}
+                )} */}
                 <TabPane tab="Ended" key={LiveAuctionViewState.Ended}></TabPane>
                 {/* {connected && (
                   <TabPane
@@ -80,12 +80,12 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
                     key={LiveAuctionViewState.Participated}
                   ></TabPane>
                 )} */}
-                {connected && (
+                {/* {connected && (
                   <TabPane
                     tab="My Live Auctions"
                     key={LiveAuctionViewState.Own}
                   ></TabPane>
-                )}
+                )} */}
               </Tabs>
             </Row>
             <Row>

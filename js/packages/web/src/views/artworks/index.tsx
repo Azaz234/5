@@ -58,7 +58,8 @@ export const ArtworksView = () => {
             : item.edition?.pubkey || item.metadata.pubkey;
 
           return <ItemCard item={item} key={pubkey} />;
-        })}
+        })}<br></br>
+        {userItems.length === 0 && <><h2>No Item Found</h2></> }
     </div>
   );
 
@@ -71,7 +72,7 @@ export const ArtworksView = () => {
       overlay={
         <Menu className="gray-dropdown">
           <Menu.Item onClick={() => pullAllMetadata()}>
-            Load All Metadata
+            Load All FaceEffects
           </Menu.Item>
         </Menu>
       }

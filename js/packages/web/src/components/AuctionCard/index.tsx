@@ -871,7 +871,6 @@ export const AuctionCard = ({
           successful
         </p>
         <Button onClick={() => setShowBidPlaced(false)} className="overlay-btn">
-          Got it
         </Button>
       </MetaplexOverlay>
 
@@ -926,12 +925,12 @@ export const AuctionCard = ({
           redeemed please view your NFTs in <Link to="/artworks">Artworks</Link>
           .
         </p>
-        <Button
+        {/* <Button
           onClick={() => setShowRedeemedBidModal(false)}
           className="overlay-btn"
         >
           Got it
-        </Button>
+        </Button> */}
       </MetaplexOverlay>
 
       <MetaplexModal
